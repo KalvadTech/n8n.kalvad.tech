@@ -7,7 +7,7 @@
         "start": "./run.sh"
     },
     "dependencies": {
-        "n8n": "0.144.0"
+        "n8n": "0.155.1"
     },
     "engines": {
         "node": "^14"
