@@ -12,6 +12,11 @@ export DB_POSTGRESDB_USER=$POSTGRESQL_ADDON_USER
 export DB_POSTGRESDB_PASSWORD=$POSTGRESQL_ADDON_PASSWORD
 export GENERIC_TIMEZONE="Etc/UTC"
 export N8N_BASIC_AUTH_ACTIVE=true
+export EXECUTIONS_MODE=queue
+export QUEUE_BULL_REDIS_HOST=$REDIS_HOST
+export QUEUE_BULL_REDIS_PASSWORD=$REDIS_PASSWORD
+export QUEUE_BULL_REDIS_DB=0
+export QUEUE_BULL_REDIS_PORT=$REDIS_PORT
 
 if [ -z "$N8N_HOST" ]
 then
@@ -19,5 +24,5 @@ then
 fi
 echo "Host: $N8N_HOST"
 env
-./node_modules/.bin/n8n start
+./node_modules/.bin/n8n
 exit 1

@@ -4,7 +4,9 @@
     "version": "1.0.0",
     "author": "Loic Tosser (wowi42) <loic@kalvad.com>",
     "scripts": {
-        "start": "./run.sh"
+        "start": "./run.sh",
+        "master": "./master.sh",
+        "worker": "./worker.sh"
     },
     "dependencies": {
         "n8n": "0.155.1"
