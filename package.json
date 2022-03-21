@@ -9,9 +9,9 @@
         "worker": "./worker.sh"
     },
     "dependencies": {
-        "n8n": "0.166.0"
+        "n8n": "0.18.2"
     },
     "engines": {
-        "node": "^14"
+        "node": "16"
     }
 }
