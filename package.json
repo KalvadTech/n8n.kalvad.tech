@@ -6,7 +6,8 @@
     "scripts": {
         "start": "./run.sh",
         "main": "./main.sh",
-        "worker": "./worker.sh"
+        "worker": "./worker.sh",
+        "http": "mkdir -p /tmp/http_n8n && http-server /tmp/http_n8n"
     },
     "dependencies": {
         "http-server": "14.1.0",
