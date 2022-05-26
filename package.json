@@ -10,7 +10,7 @@
     },
     "dependencies": {
         "http-server": "14.1.0",
-        "n8n": "0.177.0"
+        "n8n": "0.178.2"
     },
     "engines": {
         "node": "16"
