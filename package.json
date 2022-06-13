@@ -10,8 +10,8 @@
         "http": "mkdir -p /tmp/http_n8n && http-server /tmp/http_n8n"
     },
     "dependencies": {
-        "http-server": "14.1.0",
-        "n8n": "0.178.2"
+        "http-server": "14.1.1",
+        "n8n": "0.181.2"
     },
     "engines": {
         "node": "16"
